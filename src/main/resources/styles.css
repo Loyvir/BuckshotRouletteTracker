@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Set the background color of the root container to black */
+.root {
+  -fx-background-color: black;
+}
+
+/* Set the text color of all Labels, Buttons, and RadioButtons to green */
+.label,
+.button,
+.radio-button {
+  -fx-text-fill: rgb(10, 230, 10);
+}
+
+#live-rounds-label,
+#blank-rounds-label {
+  /* Bold */
+  -fx-font-weight: bold;
+  /* Larger */
+  -fx-font-size: 1.5em;
+}
+
+/* Optionally, set the text color of RadioButton labels specifically */
+.radio-button .radio-button-label {
+  -fx-text-fill: green;
+}
+
+/* Optional: Style the RadioButtons themselves for better visibility */
+.radio-button {
+  -fx-background-color: transparent;
+}
+
+/* Optional: Style the selected RadioButton to have a distinct appearance */
+.radio-button:selected .radio-button-label {
+  -fx-text-fill: limegreen;
+}
+
+/* Optional: Style Hover Effects for Buttons */
+.button:hover {
+  -fx-background-color: darkgreen;
+}
