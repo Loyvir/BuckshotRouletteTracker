@@ -102,4 +102,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 **Your Name**  
-[Your Email] | [GitHub Profile] | [LinkedIn Profile]
+Leivur Olsen
