@@ -8,6 +8,16 @@ Buckshot Roulette Tracker is a desktop application built using JavaFX. It is des
 - Calculate and display the probability of a live outcome.
 - Track individual rounds with interactive options for live or blank outcomes.
 
+## Screenshots
+
+### Round Selection
+
+![Select number of live and blank rounds](src/main/resources/screenshots/select_rounds.png)
+
+### Tracking Rounds
+
+![Track for each round](src/main/resources/screenshots/rounds_selected.png)
+
 ## Installation and Usage
 
 ### Prerequisites
@@ -21,11 +31,3 @@ Buckshot Roulette Tracker is a desktop application built using JavaFX. It is des
    ```bash
    git clone https://github.com/your-username/buckshot-roulette-tracker.git
    ```
-2. Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
-3. Add the JavaFX library to your project dependencies.
-4. Run the `App` class to launch the application.
-
----
-
-Enjoy using Buckshot Roulette Tracker!
-
