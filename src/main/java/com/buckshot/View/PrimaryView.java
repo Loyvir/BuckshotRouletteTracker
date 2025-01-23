@@ -30,7 +30,7 @@ public class PrimaryView {
         root = new BorderPane();
         root.setTop(roundsContainer());
 
-        String css = this.getClass().getResource("/styles.css").toExternalForm();
+        String css = this.getClass().getResource("/css/styles.css").toExternalForm();
         root.getStylesheets().add(css);
 
         return root;
